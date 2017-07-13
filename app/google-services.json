@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "767060952439",
+    "firebase_url": "https://varshu-afd27.firebaseio.com",
+    "project_id": "varshu-afd27",
+    "storage_bucket": "varshu-afd27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767060952439:android:1abd9093646479b0",
+        "android_client_info": {
+          "package_name": "com.example.kritikagopalakrishnan.camera_touristguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767060952439-5pfg5o13uqv3fc1va65rk4js4d43bglp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kritikagopalakrishnan.camera_touristguide",
+            "certificate_hash": "b7f9addef0bc51da200daea905cfdc29c6fbb72e"
+          }
+        },
+        {
+          "client_id": "767060952439-2nt8bdbmlp4a16n76j31e4pcomtc64da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi6z1MDr-VHKyp-yLulBgQjJLsry7uG88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767060952439-2nt8bdbmlp4a16n76j31e4pcomtc64da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767060952439:android:5c6511ea6b85528a",
+        "android_client_info": {
+          "package_name": "com.mutualmobile.cardstack.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767060952439-tl1769eu29drimrp0rloe9pstd2rf1ui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mutualmobile.cardstack.sample",
+            "certificate_hash": "b7f9addef0bc51da200daea905cfdc29c6fbb72e"
+          }
+        },
+        {
+          "client_id": "767060952439-2nt8bdbmlp4a16n76j31e4pcomtc64da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi6z1MDr-VHKyp-yLulBgQjJLsry7uG88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767060952439-2nt8bdbmlp4a16n76j31e4pcomtc64da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
