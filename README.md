@@ -1,69 +1,7 @@
-# CardStack
-An iOS Passbook-like highly customisable stack of cards implementation for Android.
+TouristGuide
 
-[![Build Status](https://travis-ci.org/mutualmobile/CardStackUI.svg?branch=master)](https://travis-ci.org/mutualmobile/CardStackUI) [![Version](https://api.bintray.com/packages/mutualmobile/Android/card-stack-ui/images/download.svg)](https://bintray.com/mutualmobile/Android/card-stack-ui)
- [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CardStackUI-green.svg?style=true)](https://android-arsenal.com/details/1/3096)
+Tourism is a swiftly growing economic sector and has thus become one of the most significant industries of this period. Today, tourism is a major source of income for many countries. In the United States, it is one of the most celebrated industries. This expanding industry demands coherent data in a convenient form. While data is there in abundance, there is no evidence of which data is reliable and which is not. Also, information is scattered throughout the internet. If a website gives accommodation information, another gives details about eateries and another tells the user about famous landmarks. Therefore there is a need to consolidate these wide ranges of data and present it to the users in a user friendly manner. Tourist Guide is an Android mobile application that can be regarded as a blueprint for all forms of Tourism. In this application, user gets information about any famous structure within the user’s line of sight, events nearby, eateries nearby and other tourist spots nearby. User also receives safety alerts and warnings because prevention is better than cure. To obtain information about any monument or structure present in the user’s physical environment the application’s camera is moved in space and the application identifies the structure and augments information about it in the form of text or speech. Details about eateries, landmarks and accommodations are provided to the user along with their ratings and reviews.
 
-<table>
-  <tr>
-    <td><h4>Init Animation</h4></td>
-    <td><h4>Card Click</h4></td>
-    <td><h4>Basic Drag</h4></td>
-    <td><h4>Parallax Drag</h4></td>
-  </tr>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/mutualmobile/CardStackUI/master/images/showcase/InitAnimation.gif?token=ABCt5p-LPvIgv6lQmwPhcs01L7i6s1RNks5WsjhMwA%3D%3D"></td>
-    <td><img src="https://raw.githubusercontent.com/mutualmobile/CardStackUI/master/images/showcase/Card%20Click.gif?token=ABCt5vutFKLG17UfTjwuNP7Wch6_e0a5ks5Wsi1HwA%3D%3D"></td>
-    <td><img src="https://raw.githubusercontent.com/mutualmobile/CardStackUI/master/images/showcase/BasicDrag.gif?token=ABCt5uiVA9iKifP5YX9ta6nI_t0KsxVMks5Wsi0GwA%3D%3D"></td>
-    <td><img src="https://raw.githubusercontent.com/mutualmobile/CardStackUI/master/images/showcase/PrallaxDrag.gif?token=ABCt5t4-uywQ20Kw489R1_5AQ7GXdx07ks5Wsi2QwA%3D%3D"></td>
-  </tr>
-</table>
+The following three data inputs are the main functional requirements of the project
 
-Complete Demo - https://www.youtube.com/watch?v=8VjEa_u3LkM
-
-Sample app APK - https://github.com/mutualmobile/CardStackUI/releases
-
-### Gradle
-```
-dependencies {
-    ...
-    compile 'com.mutualmobile.android:cardstack:0.5.3'
-}
-```
-
-Usage
------
-```xml
-<com.mutualmobile.cardstack.CardStackLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_stack="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/cardStack"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    card_stack:card_gap="60dp"
-    card_stack:card_gap_bottom="5dp"
-    card_stack:parallax_enabled="true"
-    card_stack:parallax_scale="-6"
-    card_stack:showInitAnimation="true" />
-```
-
-Known Issues
--------
-
-```parallax_enabled``` and ```parallax_scale``` are not working currently. Also the drag to move cards also is not working.
-
-License
--------
-
-    Copyright 2015 - 2016 Mutual Mobile
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+GPS Data: The Google location service is used in this aspect to get the current GPS location of the user. This will provide the latitude and longitude details of the user’s current location when the application is launched. Orientation and Direction Data: For the tourist spot to be recognized accurately, the camera orientation along with the direction it is pointing to is very important along with the location details. We will require inputs from the Accelerometer, gyroscope and the compass sensors of the user’s smartphone device to analyze his camera orientation and the direction. Camera Input: Camera capture is the prime information for any Augmented Reality application. The application will scan the camera’s preview and send it to background image processing API to process it. We also use the camera view to overlay the information we have acquired and display it to the user in real-time.
